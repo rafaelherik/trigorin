@@ -1,1 +1,1 @@
-from suvorin.terraform.azure import *
+from suvorin.terraform import *

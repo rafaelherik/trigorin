@@ -1,0 +1,1 @@
+from terraform.azure import *

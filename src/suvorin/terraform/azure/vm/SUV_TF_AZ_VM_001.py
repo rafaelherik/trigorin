@@ -12,13 +12,12 @@ class PasswordAuthenticationDisabled(BaseResourceCheck):
         categories = (CheckCategories.GENERAL_SECURITY,)
         super().__init__(name=name, id=id, categories=categories, supported_resources=supported_resources)
 
-    def scan_resource_conf(self, conf):
-        print(conf)
-        # if 'os_profile_linux_config' in conf:
-        #     os_profile_linux_config = conf['os_profile_linux_config'][0]
-        #     if 'disable_password_authentication' in os_profile_linux_config:
-        #         if not os_profile_linux_config['disable_password_authentication'][0]:
-        #             return CheckResult.FAILED
-        return CheckResult.FAILED
+    def scan_resource_conf(self, conf):        
+        if 'os_profile_linux_config' in conf:            
+             os_profile_linux_config = conf['os_profile_linux_config'][0]             
+             if 'disable_password_authentication' in os_profile_linux_config:
+                 if not os_profile_linux_config['disable_password_authentication']:
+                     return CheckResult.FAILED
+        return CheckResult.PASSED
 
 check = PasswordAuthenticationDisabled()
