@@ -13,6 +13,19 @@ The objective is to add customizable policies to ensure naming conventions, reso
 By implementing these policies, you reduce the effort required to manage Infrastructure as Code (IaC) and improve the maintainability and reliability of your systems.
 
 
+## Preparing development environment
+
+ - Create a Python Virtual environment
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+```
+ - Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
 
 
 ## Why Suvorin?
