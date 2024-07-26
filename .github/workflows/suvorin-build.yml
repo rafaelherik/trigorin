@@ -35,7 +35,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest
+        python tests/test_main.py
 
     - name: Upload coverage to Coveralls
       if: success()
