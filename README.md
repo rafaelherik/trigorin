@@ -2,6 +2,10 @@
 ![](/.assets/images/logo.png)
 
 # Suvorin IaaC policies for Checkov
+
+![Build Status](https://github.com/rafaelherik/suvorin/actions/workflows/suvorin-build.yml/badge.svg)
+
+
 This python package has a set of useful custom policies to Checkov.
 
 The objective is to add customizable policies to ensure naming conventions, resource sizing, and governance checks. This helps your infrastructure code adhere to best practices and identifies issues before code integration into your repository, preventing compliance problems at deployment time.
