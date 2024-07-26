@@ -37,9 +37,3 @@ jobs:
       run: |
         python -m pip install src/
         python tests/test_main.py
-
-    - name: Upload coverage to Coveralls
-      if: success()
-      uses: coverallsapp/github-action@v1
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
