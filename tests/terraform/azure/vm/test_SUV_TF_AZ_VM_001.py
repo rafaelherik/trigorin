@@ -36,8 +36,8 @@ class TestPasswordAuthenticationDisabled(unittest.TestCase):
 
         print(f"summary: {summary}")
 
-        #self.assertEqual(summary["passed"], len(passing_resources))
-        #self.assertEqual(summary["failed"], len(failing_resources))
+        self.assertEqual(summary["passed"], len(passing_resources))
+        self.assertEqual(summary["failed"], len(failing_resources))
         self.assertEqual(summary["skipped"], 0)
         self.assertEqual(summary["parsing_errors"], 0)
 

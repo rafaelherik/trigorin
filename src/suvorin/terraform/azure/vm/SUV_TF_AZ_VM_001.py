@@ -16,7 +16,7 @@ class PasswordAuthenticationDisabled(BaseResourceCheck):
         if 'os_profile_linux_config' in conf:            
              os_profile_linux_config = conf['os_profile_linux_config'][0]             
              if 'disable_password_authentication' in os_profile_linux_config:
-                 if not os_profile_linux_config['disable_password_authentication']:
+                 if os_profile_linux_config['disable_password_authentication'] == [False]:
                      return CheckResult.FAILED
         return CheckResult.PASSED
 
