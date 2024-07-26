@@ -1,0 +1,24 @@
+from __future__ import annotations
+from typing import Any
+
+from checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
+from checkov.common.models.enums import CheckResult, CheckCategories
+
+class PasswordAuthenticationDisabled(BaseResourceCheck):
+    def __init__(self):
+        name = "Ensure that password authentication is disabled for Azure Linux VMs"
+        id = "SUV_TF_AZ_VM_001"
+        supported_resources = ['azurerm_linux_virtual_machine_scale_set', 'azurerm_linux_virtual_machine', "azurerm_virtual_machine"]
+        categories = (CheckCategories.GENERAL_SECURITY,)
+        super().__init__(name=name, id=id, categories=categories, supported_resources=supported_resources)
+
+    def scan_resource_conf(self, conf):
+        print(conf)
+        # if 'os_profile_linux_config' in conf:
+        #     os_profile_linux_config = conf['os_profile_linux_config'][0]
+        #     if 'disable_password_authentication' in os_profile_linux_config:
+        #         if not os_profile_linux_config['disable_password_authentication'][0]:
+        #             return CheckResult.FAILED
+        return CheckResult.FAILED
+
+check = PasswordAuthenticationDisabled()
