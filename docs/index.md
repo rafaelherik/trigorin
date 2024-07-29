@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Suvorin"
-  text: "A python package that provides a set of useful custom policies to Checkov."
+  text: "Useful custom policies to Checkov."
   tagline:
   actions:
     - theme: brand

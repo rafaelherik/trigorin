@@ -3,9 +3,10 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Suvorin",
-  description: "A python package has a set of useful custom policies to Checkov.",
+  description: "Useful custom policies to Checkov.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: { light: 'logo-black.png', dark: 'logo-white.png' },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/usage-examples' }
