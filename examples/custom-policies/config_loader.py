@@ -3,13 +3,12 @@ import yaml
 
 class ConfigLoader:
     _instance = None
-    config_file = os.environ.get('SUVORIN_CONFIG_FILE')
-    def __new__(cls, config_file='../../config.yaml'):
+
+    def __new__(cls):
         if cls._instance is None:
             cls._instance = super(ConfigLoader, cls).__new__(cls)
             cls._instance._initialized = False
-            cls._instance.config = {}
-            cls._instance.load_config(config_file)
+            cls._instance.config = {}            
         return cls._instance
 
     def load_config(self, config_file):
