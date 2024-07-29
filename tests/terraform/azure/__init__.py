@@ -1,1 +1,0 @@
-from terraform.azure.vm import *

@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'checkov.custom.checks': [
-            'SUV_TF_AZ_VM_001 = suvorin.SUV_TF_AZ_VM_001:PasswordAuthenticationDisabled',            
+            'SUV_TF_AZ_VM_001=suvorin.SUV_TF_AZ_VM_001:PasswordAuthenticationDisabled',
         ],
     },
 )
