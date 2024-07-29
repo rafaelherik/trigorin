@@ -3,12 +3,7 @@
 
 # Suvorin IaaC policies for Checkov
 
-<<<<<<< Updated upstream
-![Build Status](https://github.com/rafaelherik/suvorin/actions/workflows/suvorin-build.yml/badge.svg)
-=======
 ![Build Status](https://github.com/rafaelherik/trigorin/actions/workflows/build.yml/badge.svg)
->>>>>>> Stashed changes
-
 
 This python package has a set of useful custom policies to Checkov.
 
