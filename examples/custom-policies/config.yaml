@@ -1,0 +1,3 @@
+SUV_TF_AZ_NAMING:
+  regex_pattern: ^[a-z0-9]{1,6}$
+  supported_resources: ["azurerm_virtual_machine"]
