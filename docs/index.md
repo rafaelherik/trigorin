@@ -1,24 +1,18 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Suvorin"
-  text: "A python package has a set of useful custom policies to Checkov."
-  tagline: My great project tagline
+  text: "A python package that provides a set of useful custom policies to Checkov."
+  tagline:
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Usage examples
+      link: /usage-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Governance policies
+    details: Policies to help you to keep your terraform code compliant with your governance policies.
+  - title: Best Practices policies
+    details: Policies to help you to keep your code following the best practices.
 ---
