@@ -5,10 +5,12 @@ from checkov.runner_filter import RunnerFilter
 from checkov.terraform.runner import Runner
 
 from suvorin.terraform.azure.vm.SUV_TF_AZ_VM_001 import check
+from suvorin.config_loader import ConfigLoader
 
 
 class TestPasswordAuthenticationDisabled(unittest.TestCase):
-     def test(self):
+     def test(self):        
+
         print("Running the test for PasswordAuthenticationDisabled.")
         test_files_dir = Path(__file__).parent / "example_SUV_TF_AZ_VM_001"
         
