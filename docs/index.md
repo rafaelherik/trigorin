@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "Suvorin"
+  name: "Trigorin"
   text: "Useful custom policies to Checkov."
   tagline:
   actions:

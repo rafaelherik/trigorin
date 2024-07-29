@@ -1,8 +1,8 @@
-# Contributing to Suvorin
+# Contributing to Trigorin
 
 First off, thanks for taking the time to contribute! 🎉
 
-The following is a set of guidelines for contributing to Suvorin, which is hosted in the [Suvorin Repository](https://github.com/rafaelherik/suvorin) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to Trigorin, which is hosted in the [Trigorin Repository](https://github.com/rafaelherik/trigorin) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 
 ## How Can I Contribute?
@@ -11,14 +11,14 @@ The following is a set of guidelines for contributing to Suvorin, which is hoste
 
 This section guides you through submitting a bug report. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
-- **Before submitting a bug report**, check the [issue tracker](https://github.com/rafaelherik/suvorin/issues) to see if the problem has already been reported.
+- **Before submitting a bug report**, check the [issue tracker](https://github.com/rafaelherik/trigorin/issues) to see if the problem has already been reported.
 - **If the problem is already reported**, add any additional information that might help reproduce the issue and add a 👍 reaction to indicate you have the same issue.
 
 ### Suggesting Enhancements
 
 This section guides you through submitting an enhancement suggestion, including completely new features and minor improvements to existing functionality.
 
-- **Before suggesting enhancements**, check the [issue tracker](https://github.com/rafaelherik/suvorin/issues) to see if the enhancement has already been suggested.
+- **Before suggesting enhancements**, check the [issue tracker](https://github.com/rafaelherik/trigorin/issues) to see if the enhancement has already been suggested.
 - **If the enhancement is already suggested**, add any supporting details and a 👍 reaction to show your interest.
 
 ### Submitting Pull Requests

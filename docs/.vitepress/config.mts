@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Suvorin",
+  title: "Trigorin",
   description: "Useful custom policies to Checkov.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/rafaelherik/suvorin' }
+      { icon: 'github', link: 'https://github.com/rafaelherik/trigorin' }
     ]
   }
 })
