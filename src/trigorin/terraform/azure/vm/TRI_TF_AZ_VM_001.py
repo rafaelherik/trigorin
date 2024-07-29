@@ -7,7 +7,7 @@ class PasswordAuthenticationDisabled(BaseResourceCheck):
 
     def __init__(self):
         name = "Ensure that password authentication is disabled for Azure Linux VMs"
-        id = "SUV_TF_AZ_VM_001"
+        id = "TRI_TF_AZ_VM_001"
         supported_resources = [
             'azurerm_linux_virtual_machine_scale_set',
             'azurerm_linux_virtual_machine',

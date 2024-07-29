@@ -2,14 +2,14 @@ import unittest
 from pathlib import Path
 from checkov.runner_filter import RunnerFilter
 from checkov.terraform.runner import Runner
-from trigorin.terraform.azure.vm.SUV_TF_AZ_VM_001 import check
+from trigorin.terraform.azure.vm.TRI_TF_AZ_VM_001 import check
 
 
 class TestPasswordAuthenticationDisabled(unittest.TestCase):
 
     def test(self):
         print("Running the test for PasswordAuthenticationDisabled.")
-        test_files_dir = Path(__file__).parent / "example_SUV_TF_AZ_VM_001"
+        test_files_dir = Path(__file__).parent / "example_TRI_TF_AZ_VM_001"
         # when
         report = Runner().run(root_folder=str(test_files_dir),
                               runner_filter=RunnerFilter(checks=[check.id]))

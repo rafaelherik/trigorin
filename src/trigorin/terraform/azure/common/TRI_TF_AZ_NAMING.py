@@ -8,10 +8,10 @@ class ResourceNamePatternCheck(BaseResourceCheck):
 
     def __init__(self):
         name = "Ensure resource names match the specified regex pattern"
-        id = "SUV_TF_AZ_NAMING"
+        id = "TRI_TF_AZ_NAMING"
         config = ConfigLoader()
         supported_resources = [
-            config.get_config('SUV_TF_AZ_NAMING.supported_resources')]
+            config.get_config('TRI_TF_AZ_NAMING.supported_resources')]
         categories = [CheckCategories.CONVENTION]
         super().__init__(
             name=name,
@@ -20,7 +20,7 @@ class ResourceNamePatternCheck(BaseResourceCheck):
             supported_resources=supported_resources)
 
         self.name_pattern = re.compile(
-            config.get_config('SUV_TF_AZ_NAMING.regex_pattern'))
+            config.get_config('TRI_TF_AZ_NAMING.regex_pattern'))
 
     def scan_resource_conf(self, conf):
         """

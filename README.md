@@ -3,7 +3,7 @@
 
 # Trigorin IaaC policies for Checkov
 
-![Build Status](https://github.com/rafaelherik/trigorin/actions/workflows/trigorin-build.yml/badge.svg)
+![Build Status](https://github.com/rafaelherik/trigorin/actions/workflows/build.yml/badge.svg)
 
 
 This python package has a set of useful custom policies to Checkov.
