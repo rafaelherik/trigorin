@@ -1,1 +1,0 @@
-from suvorin.terraform.azure import *

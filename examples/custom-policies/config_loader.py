@@ -1,6 +1,7 @@
 import os
 import yaml
 
+
 class ConfigLoader:
     _instance = None
 
@@ -8,7 +9,7 @@ class ConfigLoader:
         if cls._instance is None:
             cls._instance = super(ConfigLoader, cls).__new__(cls)
             cls._instance._initialized = False
-            cls._instance.config = {}            
+            cls._instance.config = {}
         return cls._instance
 
     def load_config(self, config_file):
@@ -25,5 +26,6 @@ class ConfigLoader:
             else:
                 return default
         return value
+
 
 config_loader = ConfigLoader()

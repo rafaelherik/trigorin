@@ -66,8 +66,3 @@ resource "azurerm_virtual_machine" "pass" {
 
     network_interface_ids = [ "azurerm_network_interface.example_nic.id" ]
 }
-    
-
-    
-
-    

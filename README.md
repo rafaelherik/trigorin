@@ -27,7 +27,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
 ## Why Suvorin?
 
 The name "Suvorin" is inspired by the deep friendship between Suvorin and Checkov, symbolizing our project's commitment to complement and augment the capabilities of Checkov. Just as Suvorin supported and enriched Checkov's work, our goal is to provide innovative policies that bolster the security and compliance of your infrastructure.

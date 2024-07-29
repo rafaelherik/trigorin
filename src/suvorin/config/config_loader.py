@@ -1,9 +1,12 @@
 import os
 import yaml
 
+
 class ConfigLoader:
+
     _instance = None
     config_file = os.environ.get('SUVORIN_CONFIG_FILE')
+
     def __new__(cls, config_file='../../config.yaml'):
         if cls._instance is None:
             cls._instance = super(ConfigLoader, cls).__new__(cls)
@@ -26,5 +29,6 @@ class ConfigLoader:
             else:
                 return default
         return value
+
 
 config_loader = ConfigLoader()
