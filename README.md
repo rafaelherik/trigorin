@@ -1,9 +1,9 @@
 
 ![](/.assets/images/logo.png)
 
-# Suvorin IaaC policies for Checkov
+# Trigorin IaaC policies for Checkov
 
-![Build Status](https://github.com/rafaelherik/suvorin/actions/workflows/suvorin-build.yml/badge.svg)
+![Build Status](https://github.com/rafaelherik/trigorin/actions/workflows/trigorin-build.yml/badge.svg)
 
 
 This python package has a set of useful custom policies to Checkov.
@@ -27,10 +27,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Why Suvorin?
+## Why Trigorin?
 
-The name "Suvorin" is inspired by the deep friendship between Suvorin and Checkov, symbolizing our project's commitment to complement and augment the capabilities of Checkov. Just as Suvorin supported and enriched Checkov's work, our goal is to provide innovative policies that bolster the security and compliance of your infrastructure.
+The name "Trigorin" is inspired by the intricate character from Chekhov's "The Seagull," symbolizing our project's dedication to enhancing and extending the functionalities of Checkov. Just as Trigorin, with his depth and complexity, adds layers of meaning to Chekhov's work, our goal is to provide innovative solutions that reinforce the security and compliance of your infrastructure.
 
-Join us in this journey to make your cloud environments more secure and resilient, with Suvorin as your steadfast companion.
+Join us in this journey to make your cloud environments more secure and resilient, with Trigorin as your reliable and insightful companion.
 
 Feel free to modify it to better fit your project's tone and vision!

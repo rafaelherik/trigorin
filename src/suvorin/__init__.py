@@ -1,2 +1,2 @@
-from suvorin.config_loader import ConfigLoader
+from trigorin.config_loader import ConfigLoader
 config_loader = ConfigLoader()

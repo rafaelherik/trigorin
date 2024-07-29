@@ -2,7 +2,7 @@ import unittest
 from pathlib import Path
 from checkov.runner_filter import RunnerFilter
 from checkov.terraform.runner import Runner
-from suvorin.terraform.azure.vm.SUV_TF_AZ_VM_001 import check
+from trigorin.terraform.azure.vm.SUV_TF_AZ_VM_001 import check
 
 
 class TestPasswordAuthenticationDisabled(unittest.TestCase):
