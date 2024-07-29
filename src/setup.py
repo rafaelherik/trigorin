@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'checkov.custom.checks': [
-            'SUV_TF_AZ_VM_001=trigorin.SUV_TF_AZ_VM_001:PasswordAuthenticationDisabled',
+            'TRI_TF_AZ_VM_001=trigorin.TRI_TF_AZ_VM_001:PasswordAuthenticationDisabled',
         ],
     },
 )
