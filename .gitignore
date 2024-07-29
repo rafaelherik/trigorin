@@ -169,7 +169,7 @@ node_modules/
 */.vitepress/dist
 */.vitepress/node_modules
 */.vitepress/.temp
-*/.vitepress/.cache
+*/.vitepress/cache
 */.vitepress/.vite
 
 
